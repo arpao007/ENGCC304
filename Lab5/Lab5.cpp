@@ -25,7 +25,7 @@ strcpy (grade , "C");
 else if (score > 55 )
 strcpy (grade , "D+");
 
-else if (score > 50 )
+else if (score >= 50 )
 strcpy (grade , "D");
 
 else

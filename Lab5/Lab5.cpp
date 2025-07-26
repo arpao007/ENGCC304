@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    float score;
+    int score;
     char grade [3] ;
     printf(" Grade calculation program from scores\n");
-    printf( " Enter your score ( Max 100 )\n" );
-    scanf( "%f" , &score );
+    printf( " Enter your score ( Max 100 )  : " );
+    if(scanf( "%d" , &score) !=1 ) {
+    printf("please enter number only.\n ");
+    return 1;
+}
 
 if (score >= 80 )
 strcpy (grade , "A");

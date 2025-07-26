@@ -13,19 +13,19 @@ int main() {
 if (score >= 80 )
 strcpy (grade , "A");
 
-else if (score > 79 )
+else if (score >= 79 )
 strcpy (grade , "B+");
 
-else if (score > 75 )
+else if (score >= 70 )
 strcpy (grade , "B");
 
-else if (score > 70 )
+else if (score >= 65 )
 strcpy (grade , "C+");
 
-else if (score > 60 )
+else if (score >= 60 )
 strcpy (grade , "C");
 
-else if (score > 55 )
+else if (score >= 55 )
 strcpy (grade , "D+");
 
 else if (score >= 50 )
